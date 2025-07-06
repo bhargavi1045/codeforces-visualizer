@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Codeforces Visualizer
 
-## Getting Started
+Codeforces Visualizer is a sleek and interactive frontend web application built with **Next.js**, **TypeScript**, and **Tailwind CSS**, designed to give a clean and insightful visualization of a Codeforces user's problem-solving performance.
 
-First, run the development server:
+### 👁️ What It Does (Current Features)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This tool fetches real-time data using the official [Codeforces API](https://codeforces.com/api) and displays:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔍 **User Profile Summary**
+  - Handle, rank, rating, max rating/rank
+  - Country and organization (if available)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📈 **Rating Progress Chart**
+  - A line chart showing the evolution of the user's rating across contests
+  - Visualizes growth over time using `recharts`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🥧 **Submission Verdict Breakdown**
+  - A pie chart representing the frequency of different verdicts like:
+    - ✅ Accepted (OK)
+    - ❌ Wrong Answer
+    - ⏱️ Time Limit Exceeded
+    - 🛠️ Compilation Error
+    - ⚠️ Runtime Error
+  - Helps analyze consistency and mistake patterns
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Why This Exists
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Competitive programmers often want to **visually track** their journey on Codeforces — not just their rating, but how well they’re doing in terms of:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Accuracy of submissions
+- Ratio of correct vs incorrect attempts
+- Contest performance over time
+- Number of problems solved for a specific topic
 
-## Deploy on Vercel
+Instead of going through Codeforces’ raw tables, this tool provides **visual storytelling** with graphs and charts.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Tech Stack
+
+| Tech               |              Role                          |
+|--------------------|--------------------------------------------|
+| **Next.js**        | React framework with routing + SSR         |
+| **TypeScript**     | Safer, typed JavaScript                    |
+| **Tailwind CSS**   | Utility-first modern styling               |
+| **Recharts**       | Beautiful charts and data visualization    |
+| **Codeforces API** | Real-time competitive programming data     |
+
+
+---
+## 📸 Demo Screenshots
+
+[Updating Soon]
+
+## Demo Link 
+[Updating Soon]
